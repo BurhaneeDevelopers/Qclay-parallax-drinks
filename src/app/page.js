@@ -24,7 +24,7 @@ export default function Home() {
           transition={{ duration: 0.5 }}
         />
       </AnimatePresence>
-      <div className="flex flex-row md:flex-col gap-5 justify-center items-center md:space-y-10 absolute bottom-14 md:bottom-auto  md:right-36">
+      <div className="flex flex-row md:flex-col gap-5 md:gap-0 justify-center items-center md:space-y-10 absolute bottom-14 md:bottom-auto  md:right-36">
         {images.map((_, index) => (
           <button
             key={index}
